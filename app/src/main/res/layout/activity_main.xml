@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_weight="30"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="122dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/key">
+
+    </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="267dp"
+        android:layout_height="200dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_gravity="right|center_vertical"
+        android:background="@color/colorRosa">
+
+    <TextView
+        android:id="@+id/Nombre"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:text="Nombre: Keyling Vanessa" />
+
+    <TextView
+        android:id="@+id/apellido"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:text="Apellido: Martinez Rizo" />
+
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:text="edad:20" />
+
+    <TextView
+        android:id="@+id/sexo"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="sexo: Femenino" />
+
+        <TextView
+            android:id="@+id/correo"
+            android:layout_width="247dp"
+            android:layout_height="39dp"
+            android:text="Correo: martinezkeylingvanessa@yahoo.com "/>
+
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="162dp"
+            android:layout_height="27dp"
+            android:text="telefono: 81311689"/>
+
+        <TextView
+            android:id="@+id/carrera"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:text="carrera: Ing. en sistemas" />
+
+        <View
+            android:id="@+id/View"
+            android:layout_width="246dp"
+            android:layout_height="1dp">
+
+        </View>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
